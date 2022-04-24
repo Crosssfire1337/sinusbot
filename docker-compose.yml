@@ -2,7 +2,7 @@ sinusbot:
   image: sinusbot/docker
   restart: always
   ports:
-    - 8087:8087
+    - 8088:8088
   volumes:
     - ./scripts:/opt/sinusbot/scripts
     - ./data:/opt/sinusbot/data
