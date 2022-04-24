@@ -31,7 +31,7 @@ RUN bash install.sh text-to-speech
 ADD entrypoint.sh .
 RUN chmod 755 entrypoint.sh
 
-EXPOSE 8087
+EXPOSE 8088
 
 VOLUME ["/opt/sinusbot/data", "/opt/sinusbot/scripts"]
 
